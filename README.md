@@ -21,12 +21,12 @@ The command line interface allows interaction with the user. Throughout that int
 Sequences<br />
 The application's most important elements are sequences. These are DNA sequences (composed of the four characters A, C, T and G). Each sequence that is held in the app's memory has a name and sequence number. When referring to a sequence in commands, unless otherwise defined, it is possible to refer it either by its ID or by its name.
 
-Reference to the sequence number is done using the hash character # <br />
+Reference to the sequence number is done using the hash character #,
 For example:<br />
 #1 means sequence number 1 .<br />
 #107 means sequence number 107.
 
-Reference to the sequence name is done using the at character @ <br />
+Reference to the sequence name is done using the at character @,
 For example:<br />
 @short-seq refers to the sequence named short-seq.<br />
 @dolly-dna refers to the sequence named dolly-dna.
