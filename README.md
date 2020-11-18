@@ -35,8 +35,8 @@ Files
 The application stores and reads DNA sequences from files. It will use raw DNA data, that is, files that contain the four letters and nothing else.
 
 Common CLI markings
-[argument] - Words starting with "[", ending with "]" represent optional arguments.
-<argument> - Words starting with "<", ending with ">" represent required arguments.
+[argument] - Words starting with "[", ending with "]" represent optional arguments.<br />
+<argument> - Words starting with "<", ending with ">" represent required arguments.<br />
 arg1|arg2 - Pipe sign ("|") between words represents that each one of them can be used.
 
 avalable commands in this program:
@@ -63,12 +63,12 @@ first of all you have to load sequences to run the program on them by the comman
 ```
 > cmd >>> load <file_name>  [@<sequence_name>]
 ```
-now you can enter any of the avalable commands
+now you can enter any of the avalable commands,
 enjoy!
 
 ## Help
 
-```
 run this command  for getting helper info:
+```
 > cmd >>> help [<command>]
 ```
