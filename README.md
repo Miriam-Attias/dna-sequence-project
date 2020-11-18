@@ -40,6 +40,7 @@ Common CLI markings
 arg1|arg2 - Pipe sign ("|") between words represents that each one of them can be used.
 
 avalable commands in this program:
+```
 > cmd >>> new <sequence> [@<sequence_name>]
 > cmd >>> new ATACTGCCTGAATAC @short_seq
 > cmd >>> load <file_name>  [@<sequence_name>]
@@ -52,15 +53,16 @@ avalable commands in this program:
 > cmd >>> del <seq>
 > cmd >>> reenum
 > cmd >>> save <seq> [<filename>]
-
+```
 
 ### Executing program
 
 open cmd in your computer, enter the project folder by 'cd' command
 now you're ready to start,
 first of all you have to load sequences to run the program on them by the command:
+```
 > cmd >>> load <file_name>  [@<sequence_name>]
-
+```
 now you can enter any of the avalable commands
 enjoy!
 
