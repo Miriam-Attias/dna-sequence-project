@@ -15,18 +15,18 @@ The system will interact with the user through a CLI (Command Line Interface) th
 
 ## Getting Started
 
-The Command Line Interface (CLI)
+The Command Line Interface (CLI)<br />
 The command line interface allows interaction with the user. Throughout that interface, the user can enter their input and see the application's output. The prompt of the CLI is usually > cmd >>>; it might change when special type of input is required.
 
-Sequences
+Sequences<br />
 The application's most important elements are sequences. These are DNA sequences (composed of the four characters A, C, T and G). Each sequence that is held in the app's memory has a name and sequence number. When referring to a sequence in commands, unless otherwise defined, it is possible to refer it either by its ID or by its name.
 
-Reference to the sequence number is done using the hash character # 
+Reference to the sequence number is done using the hash character # <br />
 For example:<br />
 #1 means sequence number 1 .<br />
 #107 means sequence number 107.
 
-Reference to the sequence name is done using the at character @ 
+Reference to the sequence name is done using the at character @ <br />
 For example:<br />
 @short-seq refers to the sequence named short-seq.<br />
 @dolly-dna refers to the sequence named dolly-dna.
