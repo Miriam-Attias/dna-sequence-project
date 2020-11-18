@@ -22,19 +22,19 @@ Sequences
 The application's most important elements are sequences. These are DNA sequences (composed of the four characters A, C, T and G). Each sequence that is held in the app's memory has a name and sequence number. When referring to a sequence in commands, unless otherwise defined, it is possible to refer it either by its ID or by its name.
 
 Reference to the sequence number is done using the hash character # 
-For example:
-#1 means sequence number 1 .
+For example:<br />
+#1 means sequence number 1 .<br />
 #107 means sequence number 107.
 
 Reference to the sequence name is done using the at character @ 
-For example:
-@short-seq refers to the sequence named short-seq.
+For example:<br />
+@short-seq refers to the sequence named short-seq.<br />
 @dolly-dna refers to the sequence named dolly-dna.
 
 Files
 The application stores and reads DNA sequences from files. It will use raw DNA data, that is, files that contain the four letters and nothing else.
 
-Common CLI markings
+Common CLI markings<br />
 [argument] - Words starting with "[", ending with "]" represent optional arguments.<br />
 <argument> - Words starting with "<", ending with ">" represent required arguments.<br />
 arg1|arg2 - Pipe sign ("|") between words represents that each one of them can be used.
